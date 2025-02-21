@@ -225,7 +225,7 @@ Top 5 brands: PANG MAYAMAN
 3.HP procurve
 4.Juniper/Fortinet
 5.Huawei      =
-
+6. tplink, mikrolink,dlink,no cares!
 sh spanning-tree vlan 1
 
 TASK3: EXPENSIVE SWITCH/MANAGEABLE SWITCH:\ = 20k
@@ -285,6 +285,7 @@ WonderWoman: 802.1w: rapidSTP
 "quickly,Brutally protect switches"
 SuperMan: 802.1s: MiSTP
 "Protect Many Switches at the same time!"
+x-Men: 802.1x Port Based Authentication.
 
 TASK8: ACCESS PORTS VS TRUNK PORTS: lab mo sa exam.
 +
@@ -327,7 +328,7 @@ Task9.2: STP Port Roles: 802.1D protect switches slowly/gently 30s
 DesignatedPort/DP = fwd port of Root Bridge
 RootPort/RP = fwd port of non-root Bridge(1 only)
 AlternatePort/AP = blk port of nonRootPorts
-BackupPort = yuck yuck, suck urself. enter urself, self-service
+BackupPort = yuck yuck, suck urself. enter urself, self-service: SOBOTAGE!!
 
 how becomes RootPort = kanangKamay
 Cost >> Priority >> Number
