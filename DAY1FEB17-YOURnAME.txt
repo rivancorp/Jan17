@@ -1,7 +1,7 @@
 TASK1: COLLAPSED BACKBONE: BASIC LAYER3 CONFIGURATION.
 !@@@CORE SWITCH SA TAAS
 config t
-   hostname COREtaas-_
+   hostname COREtaas-12
    enable secret pass
    service password-encryption
    no logging console
@@ -16,7 +16,7 @@ config t
       exec-timeout 0 0
    Int Vlan 1
      no shutdown
-	 ip add 10.__.1.2 255.255.255.0
+	 ip add 10.m.1.2 255.255.255.0
 	 description MGMTDATA
    Int Vlan 10
      no shutdown
@@ -28,7 +28,7 @@ config t
 	 description IPCCTV
    Int Vlan 100
      no shutdown
-	 ip add 10.__.100.2 255.255.255.0
+	 ip add 10.m.100.2 255.255.255.0
 	 description VOICEVLAN
 end
 
@@ -133,11 +133,11 @@ vlan 10
 vlan 50
    name IPCCTVLAN
 vlan 69
-   name UPPERMGMT
+   name PENTEST
 vlan 70
-    name ACCOUNTING
+    name BLUETEAMSOC
 vlan 71
-    name HR
+    name HR-FUUUUU
 vlan 100
    name VOICEVLAN
 Int Fa 0/2
